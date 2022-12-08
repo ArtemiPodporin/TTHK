@@ -22,8 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="8th dec - multiple quests.py" />
-    <Compile Include="7th dec - alus.py" />
+    <Compile Include="quests\8th dec - multiple quests.py" />
+    <Compile Include="quests\7th dec - alus.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="quests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

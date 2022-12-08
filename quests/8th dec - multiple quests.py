@@ -1,4 +1,5 @@
 from math import *
+
 #1
 print("Puu läbimõõdu arvutamine")
 C=float(input("Puu ümbermõõt: "))
@@ -14,6 +15,12 @@ print(f"Maatüki diagonaal on {d} m**2")
 
 #3
 
+#4
+A1=int(input("sisesta 1. arv => "))
+A2=int(input("sisesta 2. arv => "))
+A3=int(input("sisesta 3. arv => "))
+A4=int(input("sisesta 4. arv => "))
+A5=int(input("sisesta 5. arv => "))
 
 
 
