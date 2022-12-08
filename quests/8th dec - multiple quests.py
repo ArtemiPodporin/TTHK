@@ -44,4 +44,43 @@ print(f"Külg a={a}\nKülg b={b}\nKülg c={c}")
 print(f"Kolmnurga ümbermõõt = {a+b+c}")
 print()
 
+#7
+print("Pitsa Võtsite 3 sõbraga suure pitsa hinnaga 12,90€ te jätate teenindaja 10%")
+s=10*12.90/100
+s=round(s)
+d=(12.90+s)
+print(f"Vastus: {d}")
+p=d/3
+p=round(p,1)
+print (f"iga lollpea peab: {p}")
+print()
+
+#8
+from math import*
+print("Kütusekulu arvutamine")
+p=l/km*100
+l=float(input("Kasutaja sisestab tangitud kütuse liitrid: "))
+km=float(input("Kasutaja sisestab läbitud kilomeetrid: "))
+print (f"Vastus: {p}l/km")
+print()
+
+#9
+from math import *
+print("Rulluisutajad")
+print("Rulluisutaja keskmine kiirus on 29,9km/h")
+m=24/60
+t=m*29.9
+t=round(t,2)
+print("Vastus: {t}km")
+print()
+
+#10
+from math import *
+print("Ajateisendus")
+v=float(input("sisesta aja minutites: "))
+t=int(v//60)
+sec=int(v`)
+print(f"minutes {t}: sekundid {sec}")
+
+
 #--------------------------------
