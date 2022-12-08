@@ -5,10 +5,6 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sirjajev", "Sirjajev.pyproj", "{E15AEE00-4B51-49D5-B58D-F42A5B7E2C1D}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VigadeParandamine", "..\VigadeParandamine\VigadeParandamine.pyproj", "{61C48651-C093-4F6E-BFCA-ED0D922E89D4}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TreeDiameter", "..\TreeDiameter\TreeDiameter.pyproj", "{63B78B63-FE43-4F57-972B-B2550A1BDF68}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +13,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E15AEE00-4B51-49D5-B58D-F42A5B7E2C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E15AEE00-4B51-49D5-B58D-F42A5B7E2C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61C48651-C093-4F6E-BFCA-ED0D922E89D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61C48651-C093-4F6E-BFCA-ED0D922E89D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63B78B63-FE43-4F57-972B-B2550A1BDF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63B78B63-FE43-4F57-972B-B2550A1BDF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
