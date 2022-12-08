@@ -1,22 +1,22 @@
-from math import *
+ï»¿from math import *
 from random import *
 
 #1
-print("Puu läbimõõdu arvutamine")
-C=float(input("Puu ümbermõõt: "))
+print("Puu lÃ¤bimÃµÃµdu arvutamine")
+C=float(input("Puu Ã¼mbermÃµÃµt: "))
 d=2*(C/(2*pi))
-print(f"Vastus:\nPuu läbimõõduga {C} ümbermõõt võrdub {d}")
+print(f"Vastus:\nPuu lÃ¤bimÃµÃµduga {C} Ã¼mbermÃµÃµt vÃµrdub {d}")
 
 #2
-print("Ristkülikukujulise maatüki diagonaal")
-N=float(input("Sisesta ristküliku 1. külje pikkus => "))
-M=float(input("Sisesta ristküliku 2. külje pikkus => "))
+print("RistkÃ¼likukujulise maatÃ¼ki diagonaal")
+N=float(input("Sisesta ristkÃ¼liku 1. kÃ¼lje pikkus => "))
+M=float(input("Sisesta ristkÃ¼liku 2. kÃ¼lje pikkus => "))
 d=sqrt(N**2+M**2)
-print(f"Maatüki diagonaal on {d} m**2")
+print(f"MaatÃ¼ki diagonaal on {d} m**2")
 
 #3
-aeg = float(input("Mitu tundi kulus sõiduks? "))
-teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+aeg = float(input("Mitu tundi kulus sÃµiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sÃµitsid? "))
 kiirus = aeg/teepikkus
 print()
 print("Sinu kiirus oli " + str(kiirus) + " km/h")
@@ -40,8 +40,8 @@ print("  ^^ "'""'" ^^ ")
 a=randint(1,100)
 b=randint(1,100)
 c=randint(1,100)
-print(f"Külg a={a}\nKülg b={b}\nKülg c={c}")
-print(f"Kolmnurga ümbermõõt = {a+b+c}")
+print(f"KÃ¼lg a={a}\nKÃ¼lg b={b}\nKÃ¼lg c={c}")
+print(f"Kolmnurga Ã¼mbermÃµÃµt = {a+b+c}")
 print()
 
 #--------------------------------
