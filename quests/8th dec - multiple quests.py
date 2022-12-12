@@ -22,11 +22,19 @@ print()
 print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
 #4
-A1=int(input("sisesta 1. arv => "))
-A2=int(input("sisesta 2. arv => "))
-A3=int(input("sisesta 3. arv => "))
-A4=int(input("sisesta 4. arv => "))
-A5=int(input("sisesta 5. arv => "))
+try:
+    A1=int(input("Sisesta 1. arv => "))
+except:
+    print("Vale andmetüüp!")
+    A1=0
+try:
+    A2=int(input("Sisesta 2. arv => "))
+except:
+    print("Vale andmetüüp!")
+    A2=0
+A3=int(input("Sisesta 3. arv => "))
+A4=int(input("Sisesta 4. arv => "))
+A5=int(input("Sisesta 5. arv => "))
 Keskmine=(A1+A2+A3+A4+A5)/5
 print(f"Keskmine on {Keskmine}")
 
@@ -56,7 +64,6 @@ print (f"iga lollpea peab: {p}")
 print()
 
 #8
-from math import*
 print("Kütusekulu arvutamine")
 p=l/km*100
 l=float(input("Kasutaja sisestab tangitud kütuse liitrid: "))
@@ -65,7 +72,6 @@ print (f"Vastus: {p}l/km")
 print()
 
 #9
-from math import *
 print("Rulluisutajad")
 print("Rulluisutaja keskmine kiirus on 29,9km/h")
 m=24/60
