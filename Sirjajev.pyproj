@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="quests\8th dec - multiple quests.py" />
     <Compile Include="quests\7th dec - alus.py" />
+    <Compile Include="quests\12th dec - weekdays.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
