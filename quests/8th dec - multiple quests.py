@@ -85,7 +85,7 @@ from math import *
 print("Ajateisendus")
 v=float(input("sisesta aja minutites: "))
 t=int(v//60)
-sec=int(v`)
+sec=int(v)
 print(f"minutes {t}: sekundid {sec}")
 
 
