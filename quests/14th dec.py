@@ -28,3 +28,14 @@ if num1 > 0 and num2 > 0 and num3 > 0:
 else:
     print("Ошибка!")
 
+#3
+kusimus = input("Хочешь узнать день недели? ")
+if kusimus.lower() == "jah":
+  number = input("Введите число от 1 до 7: ")
+  if number.isdigit() and 1 <= int(number) <= 7:
+    days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+    print(f"день недели: {days[int(number)-1]}")
+  else:
+    print("Ошибка!")
+else:
+  print("ок пока")
