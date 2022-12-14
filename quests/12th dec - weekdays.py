@@ -1,23 +1,23 @@
-from math import *
+Ôªøfrom math import *
 from random import *
 
-print("N‰dalap‰evad")
+print("N√§dalap√§evad")
 try:
-    p=int(input("Mis p‰ev t‰na on?"))
+    p=int(input("Mis p√§ev t√§na on?"))
     if p==1:
-        n="esmasp‰ev"
+        n="esmasp√§ev"
     elif p==2:
-        n="teisip‰ev"
+        n="teisip√§ev"
     elif p==3:
-        n="kolmap‰ev"
+        n="kolmap√§ev"
     elif p==4:
-        n="neljap‰ev"
+        n="neljap√§ev"
     elif p==5:
         n="reede"
     elif p==6:
-        n="laup‰ev"
+        n="laup√§ev"
     elif p==7:
-        n="p¸hap‰ev"
+        n="p√ºhap√§ev"
     else:
         n="vale number"
     print(n)  
@@ -31,16 +31,16 @@ except:
 
 
 try:
-    hinne=int(input("Mis hinne t‰na said koolis"))
+    hinne=int(input("Mis hinne t√§na said koolis"))
 except:
     print("!!!!!!")
 if hinne==5:
-    print("V‰ga hea!")
+    print("V√§ga hea!")
 elif hinne==4:
     print("Hea!")
 elif hinne==3:
     print("Rahuldav")
-elif hinne==2 or hinne==1: #and, or, not, !=ei vırdu, <, >, >=,<=
+elif hinne==2 or hinne==1: #and, or, not, !=ei v√µrdu, <, >, >=,<=
     print("Mitte rahuldav!")
 else:
     print("Viga!")
