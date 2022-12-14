@@ -9,7 +9,7 @@ print(nimi,", sul on väga ilus nimi!")#kui on erinevat andmete tüübid
 print(nimi+", sul on väga ilus nimi!")#kui on sarnane andmete tüüp
 vanus=int(input("Kui vana sa oled? "))# input()->int
 print(f"{nimi} jargmisel aastal saad {vanus+1}")#muutuja vanus ei muuda
-print("Aga selle aastal on ", vanus)
+print("Aga selle aastal on ", vanus) #
 vanus+=1 #muudame muutuja väärtus
 print(f"Järgmine aasta on käes, siis {nimi} on {vanus} aastat vana")
 pikkus=float(input("Mis on sinu pikkus? ")) #input()->float: 1.75

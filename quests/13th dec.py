@@ -31,7 +31,7 @@ else:
 
 #3
 r=randint(-100,100)
-a=randint(-100,100)
+a=randint(-100,100) 
 print(f"r={r}\na={a}")
 if r>0 and a>0:
     Skv=a**2

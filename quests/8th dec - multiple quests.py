@@ -13,7 +13,7 @@ N=float(input("Sisesta ristküliku 1. külje pikkus => "))
 M=float(input("Sisesta ristküliku 2. külje pikkus => "))
 d=sqrt(N**2+M**2)
 print(f"Maatüki diagonaal on {d} m**2")
-
+# 
 #3
 aeg = float(input("Mitu tundi kulus sõiduks? "))
 teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
