@@ -68,3 +68,23 @@ elif месяц == 'октябрь':
 elif месяц == 'ноябрь':
 	знак = 'скорпион' if (день < 22) else 'стрелец'
 print("арчи говорит что твой знак :",знак)
+
+
+#5
+num = input("Цифру: ")
+if num.isalpha():
+print("num")
+elif num.isdigit():
+if num.is_integer():
+num = int(num)
+num = num // 2
+print("num")
+else:
+num = float(num)
+num = num * 0.7
+print("num")
+else:
+print("Ошибка!")
+
+
+
