@@ -3,21 +3,28 @@ from random import *
 
 print("Nädalapäevad")
 try:
-    p=int(input("Mis päev täna on?"))
-    if p==1:
+    päev=int(input("Mis päev täna on?"))
+    if päev==1:
         n="esmaspäev"
-    elif p==2:
+        n="6 tundi"
+    elif päev==2:
         n="teisipäev"
-    elif p==3:
+        n="8 tundi"
+    elif päev==3:
         n="kolmapäev"
-    elif p==4:
+        n="6 tundi"
+    elif päev==4:
         n="neljapäev"
-    elif p==5:
+        n="5 tundi"
+    elif päev==5:
         n="reede"
-    elif p==6:
+        n="7 tundi"
+    elif päev==6:
         n="laupäev"
-    elif p==7:
+        n="0 tundi"
+    elif päev==7:
         n="pühapäev"
+        n="0 tundi"
     else:
         n="vale number"
     print(n)  

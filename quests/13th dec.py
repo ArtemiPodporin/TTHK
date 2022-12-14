@@ -74,3 +74,21 @@ elif päev==7:
 else: 
     n="vale number"
 print(n)
+
+print("sisselogimine tahvelisse")
+try:
+    vanus=int(input("kui vana sa oled?"))
+    if vanus>=18:
+        print("kas te annate vanematele loa oma tahvelit vaadata?")
+        o=(input("jah või ei. "))
+        if o.lower()=="jah": 
+            print({o})
+            print("see on ligipaas teie vanematele.")
+            print("tahvel on kinni.")
+        elif o.upper()=="EI":
+            print("sissepaas puudub.")
+            print("tahvel on kinni.")
+    if vanus<18:
+        print("juurdepaas vanematele on automaatselt antud.")
+except:
+    print("tahvel on kinni")
