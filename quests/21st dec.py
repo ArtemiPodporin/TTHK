@@ -2,24 +2,20 @@
 from random import *
 
 #3
-# First, we ask the user for the length and width of the room
-length = float(input("Enter the length of the room (in meters): "))
-width = float(input("Enter the width of the room (in meters): "))
-
-# Next, we calculate the area of the floor
+# 
+length = float(input("длину комнаты в метрах: "))
+width = float(input("ширина комнаты в метрах: "))
 area = length * width
 
-# Then, we ask the user if they want to make repairs
-make_repairs = input("Do you want to make repairs? (yes/no) ")
+make_repairs = input("чиним? (да или нет) ")
 
-# If the user wants to make repairs, we ask for the cost per square meter
-if make_repairs.lower() == "yes":
-  cost_per_sq_meter = float(input("Enter the cost per square meter: "))
-  # We calculate the total cost of replacing the floor
-  total_cost = cost_per_sq_meter * area
-  print(f"The total cost of replacing the floor is {total_cost:.2f}.")
+if make_repairs.lower() == "да":
+  ЦенаЗаКвадМетер = float(input("Цена за квадратный метер: "))
+  # выясняем цену
+  ВсяЦена = ЦенаЗаКвадМетер * area
+  print(f"Цена починки: {ВсяЦена:.2f}.")
 else:
-  print("No repairs will be made.")
+  print("Не чиним!")
 
 
 #2
