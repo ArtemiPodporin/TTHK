@@ -63,14 +63,6 @@ p=round(p,1)
 print (f"iga lollpea peab: {p}")
 print()
 
-#8
-print("Kütusekulu arvutamine")
-p=l/km*100
-l=float(input("Kasutaja sisestab tangitud kütuse liitrid: "))
-km=float(input("Kasutaja sisestab läbitud kilomeetrid: "))
-print (f"Vastus: {p}l/km")
-print()
-
 #9
 print("Rulluisutajad")
 print("Rulluisutaja keskmine kiirus on 29,9km/h")

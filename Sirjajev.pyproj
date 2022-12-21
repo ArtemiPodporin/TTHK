@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\14th dec.py</StartupFile>
+    <StartupFile>quests\21st dec.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,7 @@
     <Compile Include="quests\12th dec - weekdays.py" />
     <Compile Include="quests\13th dec.py" />
     <Compile Include="quests\14th dec.py" />
+    <Compile Include="quests\21st dec.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
