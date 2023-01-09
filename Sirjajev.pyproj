@@ -27,6 +27,7 @@
     <Compile Include="quests\13th dec.py" />
     <Compile Include="quests\14th dec.py" />
     <Compile Include="quests\21st dec.py" />
+    <Compile Include="quests\9th jan.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
