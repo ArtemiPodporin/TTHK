@@ -1,12 +1,6 @@
 ﻿from math import *
 from random import *
 
-import random 
-результат = "" 
-for i in range(5): 
-    результат += str(random.randint(0, 9)) 
-print(результат)
-
 #0
 n = int(input("дай позитивное число: "))
 while True:
