@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\jan 2023\10th jan - Copy.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +28,6 @@
     <Compile Include="quests\dec 2022\13th dec.py" />
     <Compile Include="quests\dec 2022\14th dec.py" />
     <Compile Include="quests\dec 2022\21st dec.py" />
-    <Compile Include="quests\jan 2023\10th jan - Copy.py" />
     <Compile Include="quests\jan 2023\9th jan.py" />
     <Compile Include="quests\jan 2023\10th jan.py" />
   </ItemGroup>
