@@ -1,6 +1,15 @@
 ﻿from math import *
 from random import *
 
+#0
+n = int(input("дай позитивное число: "))
+while True:
+    print(n)
+    n -= 1
+    if n < 0:
+        break
+
+
 #16
 while True:
     print("Mõtlesin numbrile 1-10 vahel. Püüa ära arvata, mis see on!")
