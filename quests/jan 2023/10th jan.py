@@ -1,5 +1,7 @@
-﻿import random
+﻿from math import *
+from random import *
 
+#16
 while True:
     print("Mõtlesin numbrile 1-10 vahel. Püüa ära arvata, mis see on!")
     arvutinumber = random.randint(1, 10)
@@ -31,4 +33,3 @@ while True:
         print(f"Teil elevandi ostmiseks kulus {katsed} katse.")
         break
 
-#16
