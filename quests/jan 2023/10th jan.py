@@ -1,5 +1,5 @@
 ﻿from math import *
-from random import *
+import random
 
 #0
 n = int(input("дай позитивное число: "))
@@ -8,7 +8,6 @@ while True:
     n -= 1
     if n < 0:
         break
-
 
 #16
 while True:
@@ -29,8 +28,7 @@ while True:
             print("Liiga kõrgel!")
         else:
             print("Õige! my number oli", arvutinumber)
-            exit()
-
+            break
 
 #15
 katsed = 0
@@ -39,5 +37,5 @@ while True:
     katsed += 1
     if answer.lower() == "elevant":
         print(f"Teil elevandi ostmiseks kulus {katsed} katse.")
-        break
+        exit()
 
