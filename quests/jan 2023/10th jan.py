@@ -39,3 +39,4 @@ while True:
         print(f"Teil elevandi ostmiseks kulus {katsed} katse.")
         exit()
 
+
