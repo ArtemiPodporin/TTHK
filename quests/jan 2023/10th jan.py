@@ -1,4 +1,5 @@
 ﻿from math import *
+from multiprocessing.connection import answer_challenge
 import random
 
 #0
@@ -29,6 +30,17 @@ while True:
         else:
             print("Õige! my number oli", arvutinumber)
             break
+
+
+#22
+katsed=0
+answer=""
+while answer!="komm":
+    answer=input("Tahan kommi!")
+    katsed+=1
+print("Katsed: {katsed}")
+print()
+
 
 #15
 katsed = 0
