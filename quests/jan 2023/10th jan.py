@@ -1,5 +1,6 @@
 ﻿from math import *
 import random
+from re import A
 
 #0
 n = int(input("дай позитивное число: "))
@@ -82,3 +83,13 @@ while True:
        # print("Kakao")
        # try:
         #    j=int("Valige jook:")
+
+#0.2
+positive = 0
+negative = 0
+a=1
+while True:
+    a=int(input("Sisestage number: "))
+    if a>0: positive +=a
+    elife a<0: negative +=a
+    else:break
