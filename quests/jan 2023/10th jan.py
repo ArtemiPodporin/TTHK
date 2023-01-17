@@ -1,6 +1,7 @@
 ﻿from math import *
 from multiprocessing.connection import answer_challenge
 import random
+from tkinter import E
 
 #0
 n = int(input("дай позитивное число: "))
@@ -52,3 +53,34 @@ while True:
         exit()
 
 
+#0
+while True:
+    print("Tere Tulemast!")
+    try:
+        print("Latte, 2.50 euro")
+        print("Espresso, 2 euro")
+        print("Cappuccino, 3 euro")
+        print("Kakao, 2.20 euro")
+        s=float(input("Sisestage summa:"))
+        if s<2 or s>3: break
+        m=input("Valige makseviis, sularaha või kaardiga: ")
+        l=2.50
+        e=2
+        c=3
+        k=2.20
+        if m.lower()=="sularaha":
+            print("anna raha")
+            if a==c or a==l or a==e or a==k:
+                print("Oodake")
+            elif l>2.50 or e>2 or c>3 or k>2.20:
+
+
+
+        if m.lower()=="kaardiga":
+            n=int(input("Sisestage kaardi number:"))
+            print (n,"selle kaardiga on tehtud makse.")
+
+
+    except:
+        print("")
+while True:
