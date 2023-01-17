@@ -4,15 +4,16 @@ from random import *
 #0
 n = int(input("дай позитивное число: "))
 while True:
-    print(n)
+    print(n, end=" ")
     n -= 1
     if n < 0:
         break
 
 #16
+print()
 while True:
     print("Mõtlesin numbrile 1-10 vahel. Püüa ära arvata, mis see on!")
-    arvutinumber = random.randint(1, 10)
+    arvutinumber = randint(1, 10)
     while True:
         proov = input("Arvake ära number, mis ma mõtlesin! (Või tippige 'end', et lõpetada): ")
         if proov.lower() == "end":
