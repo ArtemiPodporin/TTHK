@@ -1,5 +1,5 @@
 ﻿import random
-import math
+
 #Пятый вариант
 
 print("Задание 1")
@@ -26,6 +26,7 @@ for i in range(n):
     if i == n-1:
         print("")
 print()
+input("Vajutage Enter...")
 print()
 
 #Задание 2
@@ -46,6 +47,7 @@ for i in range(4):
 print(f"Средная оценка в первом классе: {средняя_класс1}")
 print(f"Средная оценка в втором классе: {средняя_класс2}")
 print()
+input("Vajutage Enter...")
 print()
 
 # Задание 3
@@ -70,8 +72,10 @@ print(f"нижняя оценка:", минимальная_оценка )
 print(f"высшая оценка:", максимальная_оценка )
 print()
 input("Vajutage Enter...")
+print()
 
 
+# Задание 4
 print("Задание 4")
 районов = 12
 # Объявляем значение чтобы хранились данные о районах
@@ -92,4 +96,20 @@ average_density = вся_популяция / вся_площадь
 # Выводим результат
 print(f"Средняя плотность населения для региона: {average_density} тыс. чел./км2")
 print()
+input("Vajutage Enter...")
 print()
+
+# Задание 5
+print("Задание 5")
+x_min, x_max, step = 1, 3, 0.5
+# создаём список значений x с помощью понимание списка
+x_values = [x_min + step*i for i in range(int((x_max - x_min)/step) + 1)]
+# используем понимание списка для вычисления значений y
+y_values = [-0.5 * x + x for x in x_values]
+# выводим таблицу значений
+print("x\t\t\ty")
+for x, y in zip(x_values, y_values):
+    print(f"{x}\t\t{y}")
+print()
+print()
+print("Lõpp")
