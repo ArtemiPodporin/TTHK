@@ -1,8 +1,8 @@
-﻿from random import *
-from math import *
+﻿import random
+import math
 #Пятый вариант
 
-
+print("Задание 1")
 # Задание 1
 n = int(input("Mitu plaju kodu? (1-9): "))
 
@@ -25,12 +25,11 @@ for i in range(n):
     print("  -----  ", end=' ')
     if i == n-1:
         print("")
-
-
 print()
 print()
 
 #Задание 2
+print("Задание 2")
 оценки_класс1 = []
 оценки_класс2 = []
 # Оценки классов
@@ -46,35 +45,51 @@ for i in range(4):
 # Среднии оценки
 print(f"Средная оценка в первом классе: {средняя_класс1}")
 print(f"Средная оценка в втором классе: {средняя_класс2}")
-
+print()
+print()
 
 # Задание 3
-import random
+print("Задание 3")
+число_учеников = random.randint(3, 10)
+print("количсетво учеников:", число_учеников )
+оценки = []
+# Random оценки всем ученикам
+for i in range(число_учеников):
+    оценка = random.randint(1, 100)
+    оценки.append(оценка)
+# Назначить первую оценку как min & max
+минимальная_оценка = оценки[0]
+максимальная_оценка = оценки[0]
+# Найти нижнюю и высшую оценку
+for оценка in оценки:
+    if оценка < минимальная_оценка:
+        минимальная_оценка = оценка
+    elif оценка > максимальная_оценка:
+        максимальная_оценка = оценка
+print(f"нижняя оценка:", минимальная_оценка )
+print(f"высшая оценка:", максимальная_оценка )
+print()
+input("Vajutage Enter...")
 
-# Number of students
-num_students = randint(5, 15)
 
-# List to store student grades
-grades = []
-
-# Generate random grades for each student
-for i in range(num_students):
-    grade = random.randint(0, 100)
-    grades.append(grade)
-
-# Initialize minimum and maximum grade as the first grade
-min_grade = grades[0]
-max_grade = grades[0]
-
-# Iterate through the list of grades
-for grade in grades:
-    # Compare current grade with minimum grade
-    if grade < min_grade:
-        min_grade = grade
-    # Compare current grade with maximum grade
-    if grade > max_grade:
-        max_grade = grade
-
-# Print the minimum and maximum grades
-print(f"Minimum grade: {min_grade}")
-print(f"Maximum grade: {max_grade}")
+print("Задание 4")
+районов = 12
+# Объявляем значение чтобы хранились данные о районах
+данные_районов = {}
+# Данные о районах
+for i in range(1, районов + 1):
+    данные_районов[i] = {
+        "популяция": random.randint(1, 200),
+        "вся_площадь": random.randint(1, 100)
+    }
+# Выводим данные о районах
+for i in range(1, районов + 1):
+    print(f"Район {i} - население: {данные_районов[i]['популяция']} тыс. чел., площадь: {данные_районов[i]['вся_площадь']} км2")
+# Вычисляем среднюю плотность населения для региона
+вся_популяция = sum([данные_районов[i]['популяция'] for i in range(1, районов + 1)])
+вся_площадь = sum([данные_районов[i]['вся_площадь'] for i in range(1, районов + 1)])
+average_density = вся_популяция / вся_площадь
+# Выводим результат
+print(f"Средняя плотность населения для региона: {average_density} тыс. чел./км2")
+print()
+print()
