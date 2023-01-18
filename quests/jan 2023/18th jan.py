@@ -2,7 +2,8 @@
 from math import *
 #Пятый вариант
 
-#Задание 1
+
+# Задание 1
 n = int(input("Mitu plaju kodu? (1-9): "))
 
 for i in range(n):
@@ -25,6 +26,10 @@ for i in range(n):
     if i == n-1:
         print("")
 
+
+print()
+print()
+
 #Задание 2
 оценки_класс1 = []
 оценки_класс2 = []
@@ -41,3 +46,35 @@ for i in range(4):
 # Среднии оценки
 print(f"Средная оценка в первом классе: {средняя_класс1}")
 print(f"Средная оценка в втором классе: {средняя_класс2}")
+
+
+# Задание 3
+import random
+
+# Number of students
+num_students = randint(5, 15)
+
+# List to store student grades
+grades = []
+
+# Generate random grades for each student
+for i in range(num_students):
+    grade = random.randint(0, 100)
+    grades.append(grade)
+
+# Initialize minimum and maximum grade as the first grade
+min_grade = grades[0]
+max_grade = grades[0]
+
+# Iterate through the list of grades
+for grade in grades:
+    # Compare current grade with minimum grade
+    if grade < min_grade:
+        min_grade = grade
+    # Compare current grade with maximum grade
+    if grade > max_grade:
+        max_grade = grade
+
+# Print the minimum and maximum grades
+print(f"Minimum grade: {min_grade}")
+print(f"Maximum grade: {max_grade}")
