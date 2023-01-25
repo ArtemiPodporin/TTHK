@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\jan 2023\class1.py</StartupFile>
+    <StartupFile>quests\jan 2023\25th jan.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,7 +31,6 @@
     <Compile Include="quests\jan 2023\10th jan.py" />
     <Compile Include="quests\jan 2023\18th jan - kontrolltöö.py" />
     <Compile Include="quests\jan 2023\25th jan.py" />
-    <Compile Include="quests\jan 2023\class1.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
