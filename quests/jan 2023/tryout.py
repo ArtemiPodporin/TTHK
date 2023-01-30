@@ -15,4 +15,3 @@ print("Средний возраст: ", средний_возраст)
 print()
 input("Vajutage Enter...")
 print()
-
