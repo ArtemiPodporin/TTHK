@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Sirjajev</Name>
     <RootNamespace>Sirjajev</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,7 +32,7 @@
     <Compile Include="quests\jan 2023\10th jan.py" />
     <Compile Include="quests\jan 2023\18th jan - kontrolltöö.py" />
     <Compile Include="quests\jan 2023\25th jan.py" />
-    <Compile Include="quests\jan 2023\tester.py" />
+    <Compile Include="quests\jan 2023\tryout.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
