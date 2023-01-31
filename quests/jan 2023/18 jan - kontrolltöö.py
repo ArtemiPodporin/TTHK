@@ -1,4 +1,5 @@
-﻿import random
+﻿from math import *
+from random import *
 
 # Ширяев, 5ый вариант
 

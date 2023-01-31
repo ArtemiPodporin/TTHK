@@ -1,4 +1,7 @@
-﻿# Nimede lisamine loendisse
+﻿from math import *
+from random import *
+
+# Nimede lisamine loendisse
 # Запрашиваем имена пользователя
 имена = []
 for i in range(5):
