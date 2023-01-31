@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\jan 2023\25th jan.py</StartupFile>
+    <StartupFile>quests\jan 2023\31 jan.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,17 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="quests\dec 2022\8th dec - multiple quests.py" />
-    <Compile Include="quests\dec 2022\7th dec - alus.py" />
-    <Compile Include="quests\dec 2022\12th dec - weekdays.py" />
-    <Compile Include="quests\dec 2022\13th dec.py" />
-    <Compile Include="quests\dec 2022\14th dec.py" />
-    <Compile Include="quests\dec 2022\21st dec.py" />
-    <Compile Include="quests\jan 2023\9th jan.py" />
-    <Compile Include="quests\jan 2023\10th jan.py" />
-    <Compile Include="quests\jan 2023\18th jan - kontrolltöö.py" />
-    <Compile Include="quests\jan 2023\25th jan.py" />
-    <Compile Include="quests\jan 2023\tryout.py" />
+    <Compile Include="quests\dec 2022\8 dec.py" />
+    <Compile Include="quests\dec 2022\7 dec.py" />
+    <Compile Include="quests\dec 2022\12 dec.py" />
+    <Compile Include="quests\dec 2022\13 dec.py" />
+    <Compile Include="quests\dec 2022\14 dec.py" />
+    <Compile Include="quests\dec 2022\21 dec.py" />
+    <Compile Include="quests\jan 2023\9 jan.py" />
+    <Compile Include="quests\jan 2023\10 jan.py" />
+    <Compile Include="quests\jan 2023\18 jan - kontrolltöö.py" />
+    <Compile Include="quests\jan 2023\25 jan.py" />
+    <Compile Include="quests\jan 2023\31 jan.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="quests\" />
