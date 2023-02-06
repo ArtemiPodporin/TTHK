@@ -65,4 +65,6 @@ for i in range(4):
   elif KOOD[7:10] >= "571" and KOOD[7:10] <= "600":
     HAIGLA = "Valga Hospital"
   elif KOOD[7:10] >= "601" and KOOD[7:10] <= "650":
-    HAIGLA = "Valga Hospital"
+    HAIGLA = "Viljandi Hospital"
+  elif KOOD[7:10] >= "651" and KOOD[7:10] <= "700":
+    HAIGLA = "Lõuna-Eesti Haigla (Võru), Põlva Haigla"
