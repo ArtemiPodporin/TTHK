@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\february\3 feb.py</StartupFile>
+    <StartupFile>quests\2023\february\isikukod.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,13 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="quests\2023\february\3 feb.py" />
     <Compile Include="quests\2022\december\8 dec.py" />
     <Compile Include="quests\2022\december\7 dec.py" />
     <Compile Include="quests\2022\december\12 dec.py" />
     <Compile Include="quests\2022\december\13 dec.py" />
     <Compile Include="quests\2022\december\14 dec.py" />
     <Compile Include="quests\2022\december\21 dec.py" />
+    <Compile Include="quests\2023\february\isikukod.py" />
     <Compile Include="quests\2023\january\9 jan.py" />
     <Compile Include="quests\2023\january\10 jan.py" />
     <Compile Include="quests\2023\january\18 jan - kontrolltöö.py" />
