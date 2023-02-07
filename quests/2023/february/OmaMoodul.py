@@ -1,12 +1,12 @@
 ﻿from datetime import *
 from math import *
 
-def checklen(ikood:str)->bool:
+def checklen(isikukood:str)->bool:
     """Funktisoon tagastab True, kui pikkus on 11 sümbolid
     :param str ikood
     :rtype: bool
     """
-    if len(ikood)==11:
+    if len(isikukood)==11:
         flag=True
     else:
         flag=False
@@ -119,5 +119,5 @@ def arvud_sorted(arvud:list)->list:
     arvud.sort()
     return arvud
 
-def lause(ikood: str)->str:
-    print(f"See on {sugu(ikood)} ta on sündinud {sunnipaev(ikood)}, tema sünnikoht on {sunnikoht(ikood)}")
+def lause(isikukood: str)->str:
+    print(f"See on {sugu(isikukood)} ta on sündinud {sunnipaev(isikukood)}, tema sünnikoht on {sunnikoht(isikukood)}")
