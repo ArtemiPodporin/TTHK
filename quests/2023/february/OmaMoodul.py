@@ -1,8 +1,8 @@
-from datetime import *
+ï»¿from datetime import *
 from math import *
 
 def checklen(ikood:str)->bool:
-    """Funktisoon tagastab True, kui pikkus on 11 sümbolid
+    """Funktisoon tagastab True, kui pikkus on 11 sÃ¼mbolid
     :param str ikood
     :rtype: bool
     """
@@ -13,7 +13,7 @@ def checklen(ikood:str)->bool:
     return flag
 
 def sugu(ikood:str)->bool:
-    """Kui esimene täht on [1,2,3,4,5,6], siis määrame sugu
+    """Kui esimene tÃ¤ht on [1,2,3,4,5,6], siis mÃ¤Ã¤rame sugu
     :param str ikood: Isikukood
     :rtype: str
 
@@ -52,21 +52,21 @@ def sunnikoht(ikood: str)->str:
     if 1<t<10:
         haigla="Kuressaare Haigla"
     elif 11<t<19:
-        haigla="Tartu Ülikooli Naistekliinik, Tartumaa, Tartu"
+        haigla="Tartu Ãœlikooli Naistekliinik, Tartumaa, Tartu"
     elif 21<t<220:
-        haigla="Ida-Tallinna Keskhaigla, Pelgulinna sünnitusmaja, Hiiumaa, Keila, Rapla haigla, Loksa haigla"
+        haigla="Ida-Tallinna Keskhaigla, Pelgulinna sÃ¼nnitusmaja, Hiiumaa, Keila, Rapla haigla, Loksa haigla"
     elif 221<t<270:
         haigla="Ida-Viru Keskhaigla"
     elif 271<t<370:
-        haigla="Maarjamõisa Kliinikum"
+        haigla="MaarjamÃµisa Kliinikum"
     elif 371<t<420:
         haigla=" Narva Haigla"
     elif 421<t<470:
-        haigla=" Pärnu Haigla"
+        haigla=" PÃ¤rnu Haigla"
     elif 471<t<490:
-        haigla="Pelgulinna Sünnitusmaja"
+        haigla="Pelgulinna SÃ¼nnitusmaja"
     elif 491<t<520:
-        haigla="Järvamaa Haigla"
+        haigla="JÃ¤rvamaa Haigla"
     elif 521<t<570:
         haigla="Rakvere, Tapa haigla"
     elif 571<t<600:
@@ -74,16 +74,16 @@ def sunnikoht(ikood: str)->str:
     elif 601<t<650:
         haigla="Viljandi Haigla"
     elif 651<t<700:
-        haigla="Lõuna-Eesti Haigla (Võru), Põlva Haigla "
+        haigla="LÃµuna-Eesti Haigla (VÃµru), PÃµlva Haigla "
     else:
-        haigla="Välismaal"
+        haigla="VÃ¤lismaal"
     return haigla
 
 def kontrollnr(ikood:str)->int:
     astme1=[1,2,3,4,5,6,7,8,9,1]
     astme2=[3,4,5,6,7,8,9,1,2,3]
     ik_list=list(ikood)
-    ik_list=list(map(int,ik_list))
+    ik_list=list(map(int,ik_list))  
     summa=0
     for i in range(0,10,1):
         summa+=ik_list[i]*astme1[i]
@@ -120,4 +120,4 @@ def arvud_sorted(arvud:list)->list:
     return arvud
 
 def lause(ikood: str)->str:
-    print(f"See on {sugu(ikood)} ta on sündinud {sunnipaev(ikood)}, tema sünnikoht on {sunnikoht(ikood)}")
+    print(f"See on {sugu(ikood)} ta on sÃ¼ndinud {sunnipaev(ikood)}, tema sÃ¼nnikoht on {sunnikoht(ikood)}")

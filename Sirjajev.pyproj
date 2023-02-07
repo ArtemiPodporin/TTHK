@@ -29,6 +29,7 @@
     <Compile Include="quests\2022\december\14 dec.py" />
     <Compile Include="quests\2022\december\21 dec.py" />
     <Compile Include="quests\2023\february\isikukod.py" />
+    <Compile Include="quests\2023\february\OmaMoodul.py" />
     <Compile Include="quests\2023\january\9 jan.py" />
     <Compile Include="quests\2023\january\10 jan.py" />
     <Compile Include="quests\2023\january\18 jan - kontrolltöö.py" />
