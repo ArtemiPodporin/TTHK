@@ -1,2 +1,0 @@
-﻿import math
-import random 
