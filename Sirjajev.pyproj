@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\february\feb 10 - Copy.py</StartupFile>
+    <StartupFile>quests\2023\february\feb 10.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,6 @@
     <Compile Include="quests\2022\december\13 dec.py" />
     <Compile Include="quests\2022\december\14 dec.py" />
     <Compile Include="quests\2022\december\21 dec.py" />
-    <Compile Include="quests\2023\february\feb 10 - Copy.py" />
     <Compile Include="quests\2023\february\feb 10.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\isikukod.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\OmaMoodul.py" />
