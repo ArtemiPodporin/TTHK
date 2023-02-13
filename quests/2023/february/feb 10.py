@@ -97,39 +97,3 @@ def date(день, месяц, год):
         if день not in range(1, 29):
             return False
     return True
-
-#8
-def XOR_cipher(inputstring, ключ):
-    """
-    Функция XOR_cipher, которая принимает 2 аргумента: строку для шифрования и ключ шифрования,
-    и возвращает строку, зашифрованную путем применения функции XOR (^) к символам строки с ключом.
-    """
-    inputstring = str(inputstring)
-    ключ = str(ключ)
-    input_string_length = len(inputstring)
-    длинаКлюча = len(ключ)
-    индексключа = 0
-    encryptedstring = ""
-    for буква in inputstring:
-        if индексключа >= длинаКлюча:
-            индексключа = 0
-        encryptedstring += chr(ord(буква) ^ ord(ключ[индексключа]))
-        индексключа += 1
-    return encryptedstring
-
-def XOR_uncipher(inputstring, ключ):
-    """
-    Функция XOR_uncipher, которая с помощью зашифрованной строки и ключа восстанавливает исходную строку.
-    """
-    inputstring = str(inputstring)
-    ключ = str(ключ)
-    input_string_length = len(inputstring)
-    длинаКлюча = len(ключ)
-    индексключа = 0
-    decryptedstring = ""
-    for char in inputstring:
-        if индексключа >= длинаКлюча:
-            индексключа = 0
-        decryptedstring += chr(ord(char) ^ ord(ключ[индексключа]))
-        индексключа += 1
-    return decryptedstring
