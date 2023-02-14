@@ -37,18 +37,17 @@ if nimi.upper()=="JUKU":
             vanus=int(input("Kui vana sa oled? "))
         except:
             print("kasuta arvude tuup!")
-    
-    if vanus < 6:
-        print("Jukul on tasuta pilet!")
+if vanus < 6:
+    print("Jukul on tasuta pilet!")
     #Kui Juku on vanem kui 6 aga noorem 14, siis laste pilet!
-    elif vanus >= 6 and vanus <= 14:
-        print("Lastepilet Jukule!")
+elif vanus >= 6 and vanus <= 14:
+    print("Lastepilet Jukule!")
     #kui on vanem kui 15 või noorem kui 65, siis täispilet
-    elif vanus >= 15 and vanus <= 65:
-        print("Täispilet.")
+elif vanus >= 15 and vanus <= 65:
+    print("Täispilet.")
     #Kui on vanem kui 65, siis on soodus
-    elif vanus > 65:
-        print("Soodus!")
+elif vanus > 65:
+    print("Soodus!")
   #Kui on vanem kui 100 või noorem kui 0, siis viga
-    else:
-        print("Viga! Kas ta on inimene?")
+else:
+    print("Viga! Kas ta on inimene?")

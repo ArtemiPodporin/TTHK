@@ -1,15 +1,15 @@
 ﻿from MyModule import register, login, logout
 
-login_list = []
-password_list = []
+list_of_logins = []
+list_of_passwords = []
 
 while True:
-    action = input("Enter '1' to register, '2' to log in, or '3' to log out: ")
-    if action == '1':
-        register(login_list, password_list)
-    elif action == '2':
-        login(login_list, password_list)
-    elif action == '3':
+    действие = input("Нажми: '1' чтобы зарегистрироватся, '2' чтобы войти, или '3' чтобы выйти: ")
+    if действие == '1':
+        register(list_of_logins, list_of_passwords)
+    elif действие == '2':
+        login(list_of_logins, list_of_passwords)
+    elif действие == '3':
         logout()
     else:
-        print("Invalid action.")
+        print("чё?")
