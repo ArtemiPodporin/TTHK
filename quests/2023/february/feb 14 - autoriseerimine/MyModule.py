@@ -17,36 +17,36 @@ def salasona(k: int):
 
 # function for user registration
 def register():
-    login = input("Enter your name: ")
+    login = input("Sisesta oma login: ")
     if login in logins:
-        print("This name is already taken.")
+        print("See login on juba votud.")
         return
-    password_choice = input("Would you like to generate a password? (Y/N): ")
+    password_choice = input("Kas sa tahad juhuslik salasone? (Y/N): ")
     if password_choice.lower() == 'y':
         password = salasona(8)
-        print(f"Your password is: {password}")
+        print(f"Sinu salasona: {password}")
     else:
         while True:
-            password = input("Enter your password: ")
+            password = input("Sisesta oma salasona: ")
             if any(char.isdigit() for char in password) and any(char.islower() for char in password) and any(char.isupper() for char in password) and any(char in string.punctuation for char in password):
                 break
             else:
-                print("Your password must contain at least one number, one lowercase character, one uppercase character, and one special symbol.")
+                print("Teie parool peab sisaldama vähemalt ühte numbrit, ühte väiketähte, ühte suurtähte ja ühte erilist sümbolit.")
     logins.append(login)
     passwords.append(password)
-    print("Registration complete.")
+    print("Registreerimine õnnetus!")
 
 # function for user authorization
 def authorize():
-    login = input("Enter your name: ")
+    login = input("Sisesta oma login: ")
     if login not in logins:
-        print("This name is not registered.")
+        print("See logini pole registreeritud.")
         return
-    password = input("Enter your password: ")
+    password = input("Sisesta oma salasona: ")
     if password != passwords[logins.index(login)]:
-        print("Incorrect password.")
+        print("Vale salasona.")
         return
-    print("Authorization successful.")
+    print("Login õnnetus!")
 
 # function for changing name or password
 def change():
