@@ -1,15 +1,24 @@
-﻿from MyModule import register, login, logout
-
-logins = []
-passwords = []
+﻿from MyModule import register, authorize, change, forgotpassword, logout
 
 while True:
-    действие = input("Нажми: '1' чтобы зарегистрироватся, '2' чтобы войти, или '3' чтобы выйти: ")
-    if действие == '1':
-        register(logins, passwords)
-    elif действие == '2':
-        login(logins, passwords)
-    elif действие == '3':
+    print("Valige:")
+    print("1. Registreerima")
+    print("2. Logi sisse")
+    print("3. Muudata login voi salasõna")
+    print("4. Unustasid salasone")
+    print("5. Logi välja")
+    choice = input("Sisesta number (1-5): ")
+
+    if choice == '1':
+        register()
+    elif choice == '2':
+        authorize()
+    elif choice == '3':
+        change()
+    elif choice == '4':
+        forgotpassword()
+    elif choice == '5':
         logout()
+        break
     else:
-        print("чё?")
+        print("Viga! Palun andke number 1st kuni 5ni.")

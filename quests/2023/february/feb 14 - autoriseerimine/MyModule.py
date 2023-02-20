@@ -1,11 +1,11 @@
 ﻿import string
 from random import choice
 
-# initialize empty lists for logins and passwords
+# luua tühjad nimekirjad login ja paroolid
 logins = []
 passwords = []
 
-# function for generating a random password
+# funktsioon juhusliku parooli genereerimiseks
 def salasona(k: int):
   sala=""
   for i in range(k):
@@ -15,7 +15,7 @@ def salasona(k: int):
    sala+=choice(t_num)
   return sala
 
-# function for user registration
+# funktsioon kasutaja registreerimiseks
 def register():
     login = input("Sisesta oma login: ")
     if login in logins:
@@ -36,7 +36,7 @@ def register():
     passwords.append(password)
     print("Registreerimine õnnetus!")
 
-# function for user authorization
+# funktsioon kasutaja autoriseerimiseks
 def authorize():
     login = input("Sisesta oma login: ")
     if login not in logins:
@@ -48,37 +48,37 @@ def authorize():
         return
     print("Login õnnetus!")
 
-# function for changing name or password
+# funktsioon nime või parooli muutmiseks
 def change():
-    login = input("Enter your name: ")
+    login = input("Sisesta oma login: ")
     if login not in logins:
-        print("This name is not registered.")
+        print("See nimi ei ole registreeritud.")
         return
-    password = input("Enter your password: ")
+    password = input("Mis on sinu salasona: ")
     if password != passwords[logins.index(login)]:
-        print("Incorrect password.")
+        print("Vale salasona.")
         return
-    choice = input("Would you like to change your name or password? (login/password): ")
+    choice = input("Kas soovite muuta oma nime või parooli? (login/password): ")
     if choice.lower() == 'login':
-        new_login = input("Enter your new name: ")
+        new_login = input("Sisesta uue login: ")
         if new_login in logins:
-            print("This name is already taken.")
+            print("See login on juba võtud.")
             return
         logins[logins.index(login)] = new_login
-        print("Name change successful.")
+        print("Login muudatus õnnetus.")
     elif choice.lower() == 'password':
         while True:
-            new_password = input("Enter your new password: ")
+            new_password = input("Sisesta uue salasone: ")
             if any(char.isdigit() for char in new_password) and any(char.islower() for char in new_password) and any(char.isupper() for char in new_password) and any(char in string.punctuation for char in new_password):
                 break
             else:
-                print("Your password must contain at least one number, one lowercase character, one uppercase character, and one special symbol.")
+                print("Teie parool peab sisaldama vähemalt ühte numbrit, ühte väiketähte, ühte suurtähte ja ühte erilist sümbolit.")
         passwords[logins.index(login)] = new_password
-        print("Password change successful.")
+        print("Salasone muudatus õnnetus.")
     else:
-        print("Invalid choice.")
+        print("Viga.")
 
-# function for restoring forgotten password
+# funktsioon unustatud parooli taastamiseks
 def forgotpassword():
     login = input("Наберите свой логин: ")
     if login not in logins:
@@ -86,9 +86,9 @@ def forgotpassword():
         return
     new_password = salasona(8)
     passwords[logins.index(login)] = new_password
-    print(f"Your new password is: {new_password}")
+    print(f"Sinu uus parool on: {new_password}")
 
-# function for logging out
+# funktsioon välja logimiseks
 def logout():
-    print("Вы вышли.")
+    print("Sa logisid välja.")
     
