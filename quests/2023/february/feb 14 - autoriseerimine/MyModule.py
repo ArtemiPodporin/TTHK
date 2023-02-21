@@ -24,8 +24,8 @@ def register():
     if login in logins:
         print("See login on juba votud.")
         return
-    password_choice = input("Kas sa tahad juhuslik salasone? (Y/N): ")
-    if password_choice.lower() == 'y':
+    salasona_valik = input("Kas sa tahad juhuslik salasone? (Y/N): ")
+    if salasona_valik.lower() == 'y':
         password = salasona(8)
         print(f"Sinu salasona: {password}")
     else:
