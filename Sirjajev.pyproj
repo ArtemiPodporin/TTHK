@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\february\feb 21 - palgad\jah.py</StartupFile>
+    <StartupFile>quests!\2023\february\feb 21 - palgad\jah.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,35 +23,35 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="quests\2022\december\8 dec.py" />
-    <Compile Include="quests\2022\december\7 dec.py" />
-    <Compile Include="quests\2022\december\12 dec.py" />
-    <Compile Include="quests\2022\december\13 dec.py" />
-    <Compile Include="quests\2022\december\14 dec.py" />
-    <Compile Include="quests\2022\december\21 dec.py" />
-    <Compile Include="quests\2023\february\feb 21 - palgad\jah.py" />
-    <Compile Include="quests\2023\february\feb 21 - palgad\MyModule.py" />
-    <Compile Include="quests\2023\february\feb 10.py" />
-    <Compile Include="quests\2023\february\feb 14 - autoriseerimine\MyModule.py" />
-    <Compile Include="quests\2023\february\feb 14 - autoriseerimine\autoriseerimine.py" />
-    <Compile Include="quests\2023\february\feb 3 - isikukood\isikukod.py" />
-    <Compile Include="quests\2023\february\feb 3 - isikukood\OmaMoodul.py" />
-    <Compile Include="quests\2023\january\9 jan.py" />
-    <Compile Include="quests\2023\january\10 jan.py" />
-    <Compile Include="quests\2023\january\18 jan - kontrolltöö.py" />
-    <Compile Include="quests\2023\january\25 jan.py" />
-    <Compile Include="quests\2023\january\31 jan.py" />
+    <Compile Include="quests!\2022\december\8 dec.py" />
+    <Compile Include="quests!\2022\december\7 dec.py" />
+    <Compile Include="quests!\2022\december\12 dec.py" />
+    <Compile Include="quests!\2022\december\13 dec.py" />
+    <Compile Include="quests!\2022\december\14 dec.py" />
+    <Compile Include="quests!\2022\december\21 dec.py" />
+    <Compile Include="quests!\2023\february\feb 21 - palgad\jah.py" />
+    <Compile Include="quests!\2023\february\feb 21 - palgad\MyModule.py" />
+    <Compile Include="quests!\2023\february\feb 10.py" />
+    <Compile Include="quests!\2023\february\feb 14 - autoriseerimine\MyModule.py" />
+    <Compile Include="quests!\2023\february\feb 14 - autoriseerimine\autoriseerimine.py" />
+    <Compile Include="quests!\2023\february\feb 3 - isikukood\isikukod.py" />
+    <Compile Include="quests!\2023\february\feb 3 - isikukood\OmaMoodul.py" />
+    <Compile Include="quests!\2023\january\9 jan.py" />
+    <Compile Include="quests!\2023\january\10 jan.py" />
+    <Compile Include="quests!\2023\january\18 jan - kontrolltöö.py" />
+    <Compile Include="quests!\2023\january\25 jan.py" />
+    <Compile Include="quests!\2023\january\31 jan.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="quests\" />
-    <Folder Include="quests\2022\december\" />
-    <Folder Include="quests\2023\february\feb 3 - isikukood\" />
-    <Folder Include="quests\2023\february\feb 14 - autoriseerimine\" />
-    <Folder Include="quests\2023\february\feb 21 - palgad\" />
-    <Folder Include="quests\2023\january\" />
-    <Folder Include="quests\2023\february\" />
-    <Folder Include="quests\2023\" />
-    <Folder Include="quests\2022\" />
+    <Folder Include="quests!\" />
+    <Folder Include="quests!\2022\december\" />
+    <Folder Include="quests!\2023\february\feb 3 - isikukood\" />
+    <Folder Include="quests!\2023\february\feb 14 - autoriseerimine\" />
+    <Folder Include="quests!\2023\february\feb 21 - palgad\" />
+    <Folder Include="quests!\2023\january\" />
+    <Folder Include="quests!\2023\february\" />
+    <Folder Include="quests!\2023\" />
+    <Folder Include="quests!\2022\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.11" />
