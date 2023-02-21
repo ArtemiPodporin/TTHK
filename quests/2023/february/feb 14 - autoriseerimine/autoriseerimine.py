@@ -7,17 +7,17 @@ while True:
     print("3. Muudata login voi salasõna")
     print("4. Unustasid salasone")
     print("5. Logi välja")
-    choice = input("Sisesta number (1-5): ")
+    valik = input("Sisesta number (1-5): ")
 
-    if choice == '1':
+    if valik == '1':
         register()
-    elif choice == '2':
+    elif valik == '2':
         authorize()
-    elif choice == '3':
+    elif valik == '3':
         change()
-    elif choice == '4':
+    elif valik == '4':
         forgotpassword()
-    elif choice == '5':
+    elif valik == '5':
         logout()
         break
     else:
