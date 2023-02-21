@@ -2,10 +2,12 @@
 from random import choice
 
 # luua tühjad nimekirjad login ja paroolid
+# создавать пустые списки логинов и паролей
 logins = []
 passwords = []
 
 # funktsioon juhusliku parooli genereerimiseks
+# функция генерации случайного пароля
 def salasona(k: int):
   sala=""
   for i in range(k):
@@ -16,6 +18,7 @@ def salasona(k: int):
   return sala
 
 # funktsioon kasutaja registreerimiseks
+# функция регистрации пользователя
 def register():
     login = input("Sisesta oma login: ")
     if login in logins:
@@ -37,6 +40,7 @@ def register():
     print("Registreerimine õnnetus!")
 
 # funktsioon kasutaja autoriseerimiseks
+# функция авторизации пользователя
 def authorize():
     login = input("Sisesta oma login: ")
     if login not in logins:
@@ -49,6 +53,7 @@ def authorize():
     print("Login õnnetus!")
 
 # funktsioon nime või parooli muutmiseks
+# функция смены имени или пароля
 def change():
     login = input("Sisesta oma login: ")
     if login not in logins:
@@ -79,6 +84,7 @@ def change():
         print("Viga.")
 
 # funktsioon unustatud parooli taastamiseks
+# функция восстановления забытого пароля
 def forgotpassword():
     login = input("Наберите свой логин: ")
     if login not in logins:
@@ -89,6 +95,7 @@ def forgotpassword():
     print(f"Sinu uus parool on: {new_password}")
 
 # funktsioon välja logimiseks
+# функция выхода из системы
 def logout():
     print("Sa logisid välja.")
     
