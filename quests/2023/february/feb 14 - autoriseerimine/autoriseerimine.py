@@ -19,6 +19,6 @@ while True:
         forgotpassword()
     elif valik == '5':
         logout()
-        break
+        exit()
     else:
         print("Viga! Palun andke number 1st kuni 5ni.")

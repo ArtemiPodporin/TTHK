@@ -59,19 +59,15 @@ def change():
     if login not in logins:
         print("See nimi ei ole registreeritud.")
         return
-    password = input("Mis on sinu salasona: ")
-    if password != passwords[logins.index(login)]:
-        print("Vale salasona.")
-        return
-    choice = input("Kas soovite muuta oma nime või parooli? (login/password): ")
-    if choice.lower() == 'login':
+    valik = input("Kas soovite muuta oma nime või parooli? (login/password): ")
+    if valik.lower() == 'login':
         new_login = input("Sisesta uue login: ")
         if new_login in logins:
             print("See login on juba võtud.")
             return
         logins[logins.index(login)] = new_login
         print("Login muudatus õnnetus.")
-    elif choice.lower() == 'password':
+    elif valik.lower() == 'password':
         while True:
             new_password = input("Sisesta uue salasone: ")
             if any(char.isdigit() for char in new_password) and any(char.islower() for char in new_password) and any(char.isupper() for char in new_password) and any(char in string.punctuation for char in new_password):
