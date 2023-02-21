@@ -1,7 +1,7 @@
 ﻿import MyModule
 
 inimine = input("Sisesta nimi: ")
-palgad = MyModule.search_salary(inimine)
+palgad = MyModule.leiaPalk(inimine)
 
 if len(palgad) == 0:
     print("Ei leidsid palga", inimine)
