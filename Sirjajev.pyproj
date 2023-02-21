@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\february\feb 14 - autoriseerimine\autoriseerimine.py</StartupFile>
+    <StartupFile>quests\2023\february\feb 21 - palgad\jah.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,7 +29,8 @@
     <Compile Include="quests\2022\december\13 dec.py" />
     <Compile Include="quests\2022\december\14 dec.py" />
     <Compile Include="quests\2022\december\21 dec.py" />
-    <Compile Include="quests\2023\february\feb 21 - palgad\feb 21.py" />
+    <Compile Include="quests\2023\february\feb 21 - palgad\jah.py" />
+    <Compile Include="quests\2023\february\feb 21 - palgad\MyModule.py" />
     <Compile Include="quests\2023\february\feb 10.py" />
     <Compile Include="quests\2023\february\feb 14 - autoriseerimine\MyModule.py" />
     <Compile Include="quests\2023\february\feb 14 - autoriseerimine\autoriseerimine.py" />
