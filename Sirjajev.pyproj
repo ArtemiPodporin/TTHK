@@ -48,6 +48,7 @@
     <Compile Include="quests\2023\february\feb 14 - autoriseerimine\MyModule.py" />
     <Compile Include="quests\2023\february\feb 21 - palgad\jah.py" />
     <Compile Include="quests\2023\february\feb 21 - palgad\MyModule.py" />
+    <Compile Include="quests\2023\february\feb 27.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\isikukod.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\OmaMoodul.py" />
     <Compile Include="quests\2023\january\10 jan.py" />
