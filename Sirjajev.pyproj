@@ -13,6 +13,7 @@
     <RootNamespace>Sirjajev</RootNamespace>
     <TestFramework>Pytest</TestFramework>
     <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+    <IsWindowsApplication>True</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
