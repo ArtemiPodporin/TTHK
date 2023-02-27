@@ -8,7 +8,6 @@ while True:
     print("4. Unustasid salasone")
     print("5. Logi välja")
     valik = input("Sisesta number (1-5): ")
-
     if valik == '1':
         register()
     elif valik == '2':
