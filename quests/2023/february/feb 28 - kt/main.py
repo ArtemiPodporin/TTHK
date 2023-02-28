@@ -1,5 +1,4 @@
-﻿from mymodule import lapsed
+﻿from mymodule import *
 
-# Call the children function
 lapsed()
 

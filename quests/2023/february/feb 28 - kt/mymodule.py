@@ -3,13 +3,12 @@ import random
 
 def lapsed():
     nimed = []
-    keskmise_hinnad = []
+    keskmise_hinnad = []                 
 
-    # Get number of children from user
-    mittu_lapse = int(input("Enter number of children: "))
+    laste = int(input("Enter number of children: "))
 
     # Looge iga lapse jaoks juhuslikud nimed ja keskmised hinded
-    for i in range(mittu_lapse):
+    for i in range(laste):
         nimi = input(f"Sisesta lapse nimi {i+1}: ")
         hind = round(random.uniform(1, 5), 2)
         nimed.append(nimi)
@@ -30,13 +29,13 @@ def lapsed():
         if valik == 1:
             # Kuvage A-st Z-ni järjestatud laste nimed
             sortireeritud_nimed = sorted(nimed)
-            for i in range(mittu_lapse):
+            for i in range(laste):
                 print(f"{sortireeritud_nimed[i]} - {keskmise_hinnad[nimed.index(sortireeritud_nimed[i])]}")
 
         elif valik == 2:
             # Näidake suurepärast õpilast, kui on kohal
             отличник = False
-            for i in range(mittu_lapse):
+            for i in range(laste):
                 if keskmise_hinnad[i] == 5:
                     print(f"{nimed[i]} on suurepärane õpilane, hindeks 5")
                     отличник = True
@@ -46,7 +45,7 @@ def lapsed():
 
         elif valik == 3:
             # Leidke laste keskmiste hinnete keskmine tulemus
-            keskminne_hind = sum(keskmise_hinnad) / mittu_lapse
+            keskminne_hind = sum(keskmise_hinnad) / laste
             print(f"Laste keskmiste hinnete keskmine punktisumma on {round(keskminne_hind, 2)}")
 
         elif valik == 4:
@@ -61,7 +60,7 @@ def lapsed():
         elif valik == 5:
             # Loendage õpilaste arv ja hinded kokku
             kokku_hinde = sum(keskmise_hinnad)
-            print(f"Seal on {mittu_lapse} õpilast, kellel on kokku {kokku_hinde} hinne")
+            print(f"Seal on {laste} õpilast, kellel on kokku {kokku_hinde} hinne")
 
         elif valik == 6:
             # Välju programmist
