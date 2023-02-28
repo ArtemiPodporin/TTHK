@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\february\feb 27.py</StartupFile>
+    <StartupFile>quests\2023\february\feb 28 - kt\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,7 @@
     <Folder Include="quests\2023\february\feb 14 - autoriseerimine\" />
     <Folder Include="quests\2023\february\feb 21 - palgad\" />
     <Folder Include="quests\2023\february\feb 3 - isikukood\" />
+    <Folder Include="quests\2023\february\feb 28 - kt\" />
     <Folder Include="quests\2023\january\" />
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +51,8 @@
     <Compile Include="quests\2023\february\feb 21 - palgad\jah.py" />
     <Compile Include="quests\2023\february\feb 21 - palgad\MyModule.py" />
     <Compile Include="quests\2023\february\feb 27.py" />
+    <Compile Include="quests\2023\february\feb 28 - kt\main.py" />
+    <Compile Include="quests\2023\february\feb 28 - kt\mymodule.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\isikukod.py" />
     <Compile Include="quests\2023\february\feb 3 - isikukood\OmaMoodul.py" />
     <Compile Include="quests\2023\january\10 jan.py" />
