@@ -5,7 +5,7 @@ def lapsed():
     nimed = []
     keskmise_hinnad = []                 
 
-    laste = int(input("Enter number of children: "))
+    laste = int(input("Введи число детей: "))
 
     # Looge iga lapse jaoks juhuslikud nimed ja keskmised hinded
     for i in range(laste):
