@@ -40,6 +40,7 @@
     <Folder Include="quests\2023\march\" />
     <Folder Include="quests\2023\march\6 mar\" />
     <Folder Include="quests\2023\march\6 mar\sonastik\" />
+    <Folder Include="quests\2023\march\7 mar\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="quests\2022\december\12 dec.py" />
@@ -69,11 +70,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="quests\2023\march\6 mar\Too_failidega_TARpv22.py" />
+    <Compile Include="quests\2023\march\7 mar\main.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="quests\2023\march\6 mar\Laused.txt" />
     <Content Include="quests\2023\march\6 mar\sonastik\est.txt" />
     <Content Include="quests\2023\march\6 mar\sonastik\rus.txt" />
+    <Content Include="quests\2023\march\7 mar\kusimusedjavastused.txt" />
+    <Content Include="quests\2023\march\7 mar\not_valid.txt" />
+    <Content Include="quests\2023\march\7 mar\accepted.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

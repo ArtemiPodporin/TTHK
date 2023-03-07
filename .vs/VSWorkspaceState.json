@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\quests",
+    "\\quests\\2023",
+    "\\quests\\2023\\march",
+    "\\quests\\2023\\march\\6 mar",
+    "\\quests\\2023\\march\\6 mar\\sonastik"
   ],
-  "SelectedNode": "\\Sirjajev.sln",
+  "SelectedNode": "\\quests\\2023\\march\\6 mar\\sonastik\\tester.py",
   "PreviewInSolutionExplorer": false
 }
