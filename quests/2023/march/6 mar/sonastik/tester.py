@@ -2,39 +2,39 @@ from funktsioonid import translate, add_word, edit_word, test_knowledge
 
 # main.py
 while True:
-        print("\nOptions:")
-        print("1. Translate from Estonian to Russian")
-        print("2. Translate from Russian to Estonian")
-        print("3. Add a new word to dictionary")
-        print("4. Edit an existing word in dictionary")
-        print("5. Test knowledge of words")
-        print("6. Quit")
+        print("\nValikud:")
+        print("1. Tõlgi eesti keelest vene keelde")
+        print("2. Tõlgi vene keelest eesti keelde")
+        print("3. Lisage sõnastikku uus sõna")
+        print("4. Muutke sõnastikus olemasolevat sõna")
+        print("5. Testige sõnade tundmist")
+        print("6. Lõpeta")
         
-        choice = input("Enter your choice: ")
-        if choice == "1":
-            word = input("Enter word to translate: ").strip()
-            result = translate(word, "est", "rus")
+        valik = input("Sisestage oma valik: ")
+        if valik == "1":
+            sona = input("Sisestage tõlgitav sõna: ").strip()
+            result = translate(sona, "est", "rus")
             print(result)
-        elif choice == "2":
-            word = input("Enter word to translate: ").strip()
-            result = translate(word, "rus", "est")
+        elif valik == "2":
+            sona = input("Sisestage tõlgitav sõna: ").strip()
+            result = translate(sona, "rus", "est")
             print(result)
-        elif choice == "3":
-            from_word = input("Enter word in original language: ").strip()
-            to_word = input("Enter translation: ").strip()
+        elif valik == "3":
+            from_word = input("Sisestage sõna originaalkeeles: ").strip()
+            to_word = input("Sisestage tõlge: ").strip()
             result = add_word(from_word, to_word, "est", "rus")
             print(result)
-        elif choice == "4":
-            word = input("Enter word to edit: ").strip()
-            new_translation = input("Enter new translation: ").strip()
-            result = edit_word(word, new_translation, "est", "rus")
+        elif valik == "4":
+            sona = input("Sisestage muutmiseks sõna: ").strip()
+            new_translation = input("Sisestage uus tõlge: ").strip()
+            result = edit_word(sona, new_translation, "est", "rus")
             print(result)
-        elif choice == "5":
-            num_questions = int(input("Enter number of questions: "))
+        elif valik == "5":
+            num_questions = int(input("Sisestage küsimuste arv: "))
             result = test_knowledge(num_questions, "est", "rus")
             print(result)
-        elif choice == "6":
-            print("Exiting program...")
+        elif valik == "6":
+            print("Programmist väljumine...")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Vale valik. Palun proovi uuesti.")

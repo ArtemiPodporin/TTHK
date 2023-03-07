@@ -1,5 +1,17 @@
+#
+#
+# Написал на английском из-за рефлексов и лёгкости, потом переведу
+#
+#
+#
+#
+#
+#
+
+
 # Import necessary libraries
 import random
+
 
 # Define file paths
 ESTONIAN_DICT_PATH = "est.txt"
@@ -95,10 +107,10 @@ def test_knowledge(num_questions, from_language, to_language):
         terms = question.strip().split("=")
         if len(terms) == 2:
             if from_language == "est":
-                prompt = f"What is the Russian translation of '{terms[0]}'? "
+                prompt = f"Mis on venekeelne tõlge '{terms[0]}'? "
                 correct_answer = terms[1]
             elif from_language == "rus":
-                prompt = f"What is the Estonian translation of '{terms[1]}'? "
+                prompt = f"Mis on eestikeelne tõlge '{terms[1]}'? "
                 correct_answer = terms[0]
             
             user_answer = input(prompt)
@@ -106,7 +118,7 @@ def test_knowledge(num_questions, from_language, to_language):
                 num_correct += 1
                 print("Correct!")
             else:
-                print(f"Incorrect. The correct answer is '{correct_answer}'")
+                print(f"Vale. Õige vastus on '{correct_answer}'")
     
     percent_correct = num_correct / len(questions) * 100
     return f"{num_correct}/{len(questions)} ({percent_correct:.2f}%) answers were correct"
