@@ -78,6 +78,7 @@
     <Content Include="quests\2023\march\6 mar\sonastik\rus.txt" />
     <Content Include="quests\2023\march\7 mar - арчи и полина\kusimusedjavastused.txt" />
     <Content Include="quests\2023\march\7 mar - арчи и полина\eisoobi.txt" />
+    <Content Include="quests\2023\march\7 mar - арчи и полина\Nimetu.png" />
     <Content Include="quests\2023\march\7 mar - арчи и полина\vastuvõetud.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
