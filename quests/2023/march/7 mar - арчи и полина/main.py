@@ -1,8 +1,10 @@
 import random
 
-# lugege failist küsimusi ja vastuseid
-kusimused = open("kusimusedjavastused.txt", "r")
 kus_vas = {}
+kusimused = "kusimusedjavastused"
+# lugege failist küsimusi ja vastuseid
+kusimused = open(str(kusimused)+".txt", "r")
+
 for line in kusimused:
     kusimus, vastus = line.strip().split(":")
     kus_vas[kusimus] = vastus
@@ -15,6 +17,7 @@ taotlejate_arv = 5
 # initsialiseerida heakskiidetud ja vastu võtmata taotlejate nimekirjad
 vastuvõetud = []
 eisoobi = []
+
 
 # määrake taotlejale küsimuste esitamise funktsioon
 def esitada_küsimusi(taotleja):
