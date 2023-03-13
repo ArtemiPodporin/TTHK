@@ -1,5 +1,1 @@
-Kes on eesti president?:Alar Karis
-Kes on su lemmikõpetaja:Marina Oleinik
-Kas tarkvaraarendaja töö on parim:Jah
-Mitu saadikut on Riigikogus:101
-Kas sulle meeldib see test:Jah
+Kes on eesti president?:Alar Karis Kes on su lemmikõpetaja:Marina Oleinik Kas tarkvaraarendaja töö on parim:Jah Mitu saadikut on Riigikogus:101 Kas sulle meeldib see test:Jah
