@@ -39,9 +39,9 @@ f1.pack(side=TOP)
 f2=Frame(aken,width=650,height=200)
 f2.pack(side=BOTTOM)
 
-lbl=Label(f1,text="Rootvõrrandite lahendamine",font="Calibri 26", fg="green",bg="lightblue")
+lbl=Label(f1,text="Rootvõrrandite lahendamine",font="Calibri 26", fg="green")
 lbl.pack(side=TOP)
-vastus=Label(f1,text="Siia tuleb vastus", height=4,width=60,bg="yellow")
+vastus=Label(f1,text="Vastus on...", height=4,width=60,bg="pink")
 vastus.pack(side=BOTTOM)
 a=Entry(f1,font="Calibri 26", fg="green",bg="lightblue",width=3)
 a.pack(side=LEFT)#,padx=10,pady=10
@@ -55,7 +55,7 @@ c=Entry(f1,font="Calibri 26", fg="green",bg="lightblue",width=3)
 c.pack(side=LEFT)
 y=Label(f1,text="=0",font="Calibri 26", fg="green")
 y.pack(side=LEFT)
-btn=Button(f1,text="Lahenda", font="Calibri 26",bg="green",command=solve)
+btn=Button(f1,text="Lahenda", font="Calibri 26",bg="blue",command=solve)
 btn.pack(side=LEFT)
 
 
