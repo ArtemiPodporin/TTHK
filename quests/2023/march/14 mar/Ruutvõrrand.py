@@ -2,9 +2,7 @@
 from ctypes import *
 from math import sqrt
 from tkinter import *
-import numpy as np
-import matplotlib.pyplot as plt
-def lahenda():
+def solve():
     if a.get()=="": 
         a.configure(bg="red")
     else:
@@ -32,21 +30,6 @@ def lahenda():
         else:
             vas="Lahendust pole"
         vastus.configure(text=vas)
-def graafik():
-    a_=float(a.get())
-    b_=float(b.get())
-    c_=float(c.get())
-    x0=(-b_)/2*a_
-    y0=a_*x0*x0+b_*x0+c_
-    x=np.arange(x0-15,x0+15,1)#min,max,step
-    y=a_*x*x+b_*x+c_
-    fig=plt.figure()
-    plt.plot(x,y,'r-d')
-    plt.title("Ruutvõrrand")
-    plt.ylabel('Y')
-    plt.xlabel('X')
-    plt.grid(True)
-    plt.show()
 
 aken=Tk()
 aken.geometry("650x260")
@@ -72,10 +55,8 @@ c=Entry(f1,font="Calibri 26", fg="green",bg="lightblue",width=3)
 c.pack(side=LEFT)
 y=Label(f1,text="=0",font="Calibri 26", fg="green")
 y.pack(side=LEFT)
-btn=Button(f1,text="Lahenda", font="Calibri 26",bg="green",command=lahenda)
+btn=Button(f1,text="Lahenda", font="Calibri 26",bg="green",command=solve)
 btn.pack(side=LEFT)
-btn_g=Button(f1,text="Graafik", font="Calibri 26",bg="green",command=graafik)
-btn_g.pack(side=LEFT)
 
 
 
