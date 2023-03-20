@@ -1,39 +1,25 @@
 ﻿import tkinter as tk
 
-def joonista_muster(canvas, x, y, suurus, sügavus):
-    if sügavus == 0:
-        return
-    canvas.create_rectangle(x-suurus/2, y-suurus/2, x+suurus/2, y+suurus/2)
-    canvas.create_oval(x-suurus/4, y-suurus/4, x+suurus/4, y+suurus/4)
-    joonista_muster(canvas, x+suurus/2, y+suurus/2, suurus/2, sügavus-1)
-    joonista_muster(canvas, x-suurus/2, y+suurus/2, suurus/2, sügavus-1)
-    joonista_muster(canvas, x+suurus/2, y-suurus/2, suurus/2, sügavus-1)
-    joonista_muster(canvas, x-suurus/2, y-suurus/2, suurus/2, sügavus-1)
+def show_bahamas():
+    canvas.create_rectangle(0, 0, 300, 200, fill="#7fffd4")
+    canvas.create_rectangle(0, 66, 300, 133, fill="yellow")
+    canvas.create_polygon([0, 0], [100, 100], [0, 200], fill="black")
 
-def joonista():
-    canvas.delete("all")
-    suurus = int(size_entry.get())
-    sügavus = int(depth_entry.get())
-    joonista_muster(canvas, 200, 200, suurus, sügavus)
+def show_estonia():
+    canvas.create_rectangle(0, 0, 300, 200/3.0*1.0 , fill="blue")
+    canvas.create_rectangle(0 ,200/3.0*1.0 ,300 ,200/3.0*2.0 ,fill="black")
+    canvas.create_rectangle(0 ,200/3.0*2.0 ,300 ,200/3.0*3.1 ,fill="white")
 
 root = tk.Tk()
+root.title("Lippud")
 
-canvas = tk.Canvas(root, width=400, height=400)
+canvas = tk.Canvas(root,width=300,height=200,bg="cyan")
 canvas.pack()
 
-size_label = tk.Label(root, text="Suurus:")
-size_label.pack()
+bahamas_button = tk.Button(root,text="Flag of the Bahamas",command=show_bahamas)
+bahamas_button.pack()
 
-size_entry = tk.Entry(root)
-size_entry.pack()
-
-depth_label = tk.Label(root, text="Sugavus:")
-depth_label.pack()
-
-depth_entry = tk.Entry(root)
-depth_entry.pack()
-
-draw_button = tk.Button(root, text="Joonista", command=joonista)
-draw_button.pack()
+estonia_button = tk.Button(root,text="Flag of the Estonian state",command=show_estonia)
+estonia_button.pack()
 
 root.mainloop()
