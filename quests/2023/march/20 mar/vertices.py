@@ -1,16 +1,16 @@
 ﻿import tkinter as tk
 
-# create a new Tkinter window
+# looge uus Tkinteri aken
 root = tk.Tk()
 
-# create a new canvas
+# luua uus lõuend
 canvas = tk.Canvas(root, width=400, height=400)
 canvas.pack()
 
-# define the vertices of the polygon
+# määratleda hulknurga tipud
 vertices = [100, 100, 200, 50, 300, 150, 250, 250, 150, 200]
 
-# create the polygon object on the canvas
+# luua lõuendile hulknurkobjekt
 polygon_id = canvas.create_polygon(*vertices, outline='black', fill='white', width=2)
 
 # start the Tkinter event loop

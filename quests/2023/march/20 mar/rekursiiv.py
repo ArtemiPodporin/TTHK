@@ -1,6 +1,6 @@
 ﻿import tkinter as tk
 
-def draw_chess_board(canvas, length, depth):
+def joonista_malelaud(canvas, length, depth):
     if depth == 0:
         return
     for i in range(8):
@@ -17,13 +17,13 @@ def draw_chess_board(canvas, length, depth):
             cy = (2*j+1) * length / 4
             canvas.create_oval(cx-length/4, cy-length/4, cx+length/4, cy+length/4, fill='red')
     canvas.update()
-    draw_chess_board(canvas, length/2, depth-1)
+    joonista_malelaud(canvas, length/2, depth-1)
 
 def draw_pattern():
     length = int(length_entry.get())
     depth = int(depth_entry.get())
     canvas.delete('all')
-    draw_chess_board(canvas, length, depth)
+    joonista_malelaud(canvas, length, depth)
 
 root = tk.Tk()
 root.title('Rekursiivne malelaua muster')
