@@ -24,13 +24,13 @@ root.title("Flags")
 canvas = tk.Canvas(root,width=300,height=200,bg='white')
 canvas.pack()
 
-bahamas_button = tk.Button(root,text="Flag of Bahamas",command=show_bahamas)
+bahamas_button = tk.Button(root,text="Bahama lipp",command=show_bahamas)
 bahamas_button.pack(side=tk.LEFT)
 
-estonia_button = tk.Button(root,text="Flag of Estonia",command=show_estonia)
+estonia_button = tk.Button(root,text="Eesti lipp",command=show_estonia)
 estonia_button.pack(side=tk.LEFT)
 
-japan_button = tk.Button(root,text="Flag of Japan",command=show_japan)
+japan_button = tk.Button(root,text="Jaapani lipp",command=show_japan)
 japan_button.pack(side=tk.LEFT)
 
 root.mainloop()

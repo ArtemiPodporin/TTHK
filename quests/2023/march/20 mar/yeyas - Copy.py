@@ -26,19 +26,19 @@ def draw_pattern():
     draw_chess_board(canvas, length, depth)
 
 root = tk.Tk()
-root.title('Recursive Chess Board Pattern')
+root.title('Rekursiivne malelaua muster')
 
-length_label = tk.Label(root, text='Length of square:')
+length_label = tk.Label(root, text='Ruudu pikkus:')
 length_label.grid(row=0, column=0, padx=5, pady=5)
 length_entry = tk.Entry(root)
 length_entry.grid(row=0, column=1, padx=5, pady=5)
 
-depth_label = tk.Label(root, text='Depth:')
+depth_label = tk.Label(root, text='Sügavus:')
 depth_label.grid(row=1, column=0, padx=5, pady=5)
 depth_entry = tk.Entry(root)
 depth_entry.grid(row=1, column=1, padx=5, pady=5)
 
-draw_button = tk.Button(root, text='Draw Pattern', command=draw_pattern)
+draw_button = tk.Button(root, text='Joonista muster', command=draw_pattern)
 draw_button.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
 canvas = tk.Canvas(root, width=400, height=400)
