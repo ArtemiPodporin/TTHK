@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\march\20 mar\lippud.py</StartupFile>
+    <StartupFile>quests\2023\march\20 mar\lippud - radiobutton.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,7 @@
     <Folder Include="quests\2023\march\7 mar - арчи и полина\" />
     <Folder Include="quests\2023\march\14 mar\" />
     <Folder Include="quests\2023\march\20 mar\" />
+    <Folder Include="quests\2023\march\27 mar\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="quests\2022\december\12 dec.py" />
@@ -68,12 +69,14 @@
     <Compile Include="quests\2023\january\9 jan.py" />
     <Compile Include="quests\2023\march\14 mar\module1.py" />
     <Compile Include="quests\2023\march\14 mar\Ruutvõrrand.py" />
+    <Compile Include="quests\2023\march\20 mar\lippud - radiobutton.py" />
     <Compile Include="quests\2023\march\20 mar\radial colors.py" />
     <Compile Include="quests\2023\march\20 mar\vertices.py" />
     <Compile Include="quests\2023\march\20 mar\polygon.py" />
     <Compile Include="quests\2023\march\20 mar\valgusfloor.py" />
     <Compile Include="quests\2023\march\20 mar\rekursiiv.py" />
     <Compile Include="quests\2023\march\20 mar\lippud.py" />
+    <Compile Include="quests\2023\march\27 mar\mainnn.py" />
     <Compile Include="quests\2023\march\6 mar\OmaMoodul.py" />
     <Compile Include="quests\2023\march\6 mar\sonastik\funktsioonid.py" />
     <Compile Include="quests\2023\march\6 mar\sonastik\tester.py">
