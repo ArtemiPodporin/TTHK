@@ -63,6 +63,8 @@ def ring(aken):
             "red",
             "yellow",
             "cyan",
+            "pink",
+            "blue",
             "gray",
             "yellow",
             "green",
@@ -74,7 +76,7 @@ def ring(aken):
     x1=600
     y1=600
     p=5
-    for i in range(55):
+    for i in range(60):
         x0+=p
         y0+=p
         x1-=p
