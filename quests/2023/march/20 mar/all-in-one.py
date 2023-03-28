@@ -99,7 +99,7 @@ def valik():
     num = var.get()
     if num == 1:
         raam = Tk()
-        raam.title("Flags")
+        raam.title("lippud")
         aken = Canvas(raam, width=170, height=380, background="white")
         Eesti(aken)
         Bahamas(aken)
@@ -118,15 +118,15 @@ def valik():
         maled(aken)
         aken.pack()
     elif num==4:
-        raam2 = Tk()
-        raam2.title("ring")
-        aken = Canvas(raam2, width=600, height=600, background="white")
+        raam3 = Tk()
+        raam3.title("ring")
+        aken = Canvas(raam3, width=600, height=600, background="white")
         ring(aken)
         aken.pack()
     elif num==5:
-        raam2 = Tk()
-        raam2.title("valgusfoor")
-        aken = Canvas(raam2, width=150, height=300, background="white")
+        raam4 = Tk()
+        raam4.title("valgusfoor")
+        aken = Canvas(raam4, width=150, height=300, background="white")
         stoplight(aken)
         aken.pack()
 
