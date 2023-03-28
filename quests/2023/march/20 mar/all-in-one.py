@@ -85,7 +85,7 @@ def ring(aken):
 
 
 def stoplight(aken):
-    aken.create_line(0,0,  0,160,  width=990, fill="#a3a7ad")
+    aken.create_line(0,0,  360,200,  width=990, fill="#a3a7ad")
     fontt = font.Font(family='Helvetica', size=20, weight='bold')
     aken.create_text(40, 0, text="Valgusfoor", font=fontt, anchor=NW)
     aken.create_line(60,50,  100,50,  width=40 , fill="red")
