@@ -1,29 +1,29 @@
 from tkinter import *
+from tkinter import font
 from math import *
 from random import *
-from tkinter import font
 
 
-def Eesti(aken):
+def estonian(aken):
     aken.create_line(0, 0, 70, 0, 170, 40, 0, 40, 0, 0)
     aken.create_rectangle(0, 0, 170, 40, fill="#0072c6")
     aken.create_line(0, 40, 170, 40, 170, 80, 0, 80, 0, 40)
     aken.create_rectangle(0, 40, 170, 80, fill="#000000")
     aken.create_line(0, 80, 170, 80, 170, 120, 0, 120, 0, 80)
 
-def Bahamas(aken):
+def bahamas(aken):
     aken.create_rectangle(0, 120, 500, 160, fill="#2ca3c7")
     aken.create_rectangle(0, 160, 500, 200, fill="Yellow")
     aken.create_rectangle(0, 200, 500, 240, fill="#2ca3c7")
     aken.create_polygon([0,120],[0,240],[100,180],fill="black")
 
-def austria(aken):
+def austrian(aken):
     aken.create_rectangle(0, 280, 500, 360, fill="#ed2939")
     aken.create_rectangle(0, 300, 500, 340, fill="#ffffff")
     aken.create_polygon(250, 280, 450, 320, 450, 360, 250, 320, fill="#000000")
 
 
-def Ruuted(aken):
+def ruuteid(aken):
     k = 10
     x0 = 0
     y0 = 0
@@ -44,7 +44,7 @@ def Ruuted(aken):
         a = ((r) * sqrt(2)) / 2
 
 
-def maled(aken):
+def maleid(aken):
     square_size = 35
     board_size = square_size * 8
     for i in range(8):
@@ -58,7 +58,7 @@ def maled(aken):
                 square = aken.create_rectangle(x1, y1, x1 + square_size, y1 + square_size, fill=color)
 
 
-def ring(aken):
+def ringud(aken):
     colors=["black",
             "red",
             "yellow",
@@ -84,7 +84,7 @@ def ring(aken):
         aken.create_oval(x0,y0,x1,y1, fill=choice(colors))
 
 
-def stoplight(aken):
+def valgusfoor(aken):
     aken.create_line(0,0,  360,200,  width=990, fill="#a3a7ad")
     fontt = font.Font(family='Helvetica', size=20, weight='bold')
     aken.create_text(40, 0, text="Valgusfoor", font=fontt, anchor=NW)
@@ -101,33 +101,33 @@ def valik():
         raam = Tk()
         raam.title("lippud")
         aken = Canvas(raam, width=170, height=380, background="white")
-        Eesti(aken)
-        Bahamas(aken)
-        austria(aken)
+        estonian(aken)
+        bahamas(aken)
+        austrian(aken)
         aken.pack()
     elif num ==2:
         raam1 = Tk()
         raam1.title("ruuti ringud")
         aken = Canvas(raam1, width=300, height=300, background="white")
-        Ruuted(aken)
+        ruuteid(aken)
         aken.pack()
     elif num == 3:
         raam2 = Tk()
         raam2.title("maled")
         aken = Canvas(raam2, width=300, height=300, background="white")
-        maled(aken)
+        maleid(aken)
         aken.pack()
     elif num==4:
         raam3 = Tk()
         raam3.title("ring")
         aken = Canvas(raam3, width=600, height=600, background="white")
-        ring(aken)
+        ringud(aken)
         aken.pack()
     elif num==5:
         raam4 = Tk()
         raam4.title("valgusfoor")
         aken = Canvas(raam4, width=150, height=300, background="white")
-        stoplight(aken)
+        valgusfoor(aken)
         aken.pack()
 
 aken = Tk()
