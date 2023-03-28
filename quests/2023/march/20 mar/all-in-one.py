@@ -105,7 +105,7 @@ def valik():
         bahamas(aken)
         austrian(aken)
         aken.pack()
-    elif num ==2:
+    elif num == 2:
         raam1 = Tk()
         raam1.title("ruuti ringud")
         aken = Canvas(raam1, width=300, height=300, background="white")
@@ -117,13 +117,13 @@ def valik():
         aken = Canvas(raam2, width=300, height=300, background="white")
         maleid(aken)
         aken.pack()
-    elif num==4:
+    elif num == 4:
         raam3 = Tk()
         raam3.title("ring")
         aken = Canvas(raam3, width=600, height=600, background="white")
         ringud(aken)
         aken.pack()
-    elif num==5:
+    elif num == 5:
         raam4 = Tk()
         raam4.title("valgusfoor")
         aken = Canvas(raam4, width=150, height=300, background="white")
