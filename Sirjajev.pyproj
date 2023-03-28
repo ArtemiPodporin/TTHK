@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e15aee00-4b51-49d5-b58d-f42a5b7e2c1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quests\2023\march\20 mar\rekursiiv - radiobutton.py</StartupFile>
+    <StartupFile>quests\2023\march\20 mar\all-in-one.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -69,12 +69,14 @@
     <Compile Include="quests\2023\january\9 jan.py" />
     <Compile Include="quests\2023\march\14 mar\module1.py" />
     <Compile Include="quests\2023\march\14 mar\Ruutvõrrand.py" />
+    <Compile Include="quests\2023\march\20 mar\all-in-one.py" />
     <Compile Include="quests\2023\march\20 mar\lippud.py" />
     <Compile Include="quests\2023\march\20 mar\radial colors.py" />
     <Compile Include="quests\2023\march\20 mar\rekursiiv - radiobutton.py" />
+    <Compile Include="quests\2023\march\20 mar\valgusfloor.py" />
     <Compile Include="quests\2023\march\20 mar\vertices.py" />
     <Compile Include="quests\2023\march\20 mar\polygon.py" />
-    <Compile Include="quests\2023\march\20 mar\valgusfloor.py" />
+    <Compile Include="quests\2023\march\20 mar\valgusfloor - radiobutton.py" />
     <Compile Include="quests\2023\march\20 mar\rekursiiv.py" />
     <Compile Include="quests\2023\march\20 mar\lippud - radiobutton.py" />
     <Compile Include="quests\2023\march\27 mar\mainnn.py" />

@@ -3,7 +3,7 @@
 class Valgusfoor:
     def __init__(self, master):
         self.master = master
-        self.master.title("Traffic Light")
+        self.master.title("Valgusfoor")
 
         # luua valgusfoori jaoks lõuend
         self.canvas = tk.Canvas(master, width=100, height=300)
